@@ -5,6 +5,25 @@
 #### By _**{List of contributors}**_
 
 ## Description
+users number
+  user inputs a number and not letter or word
+  W -> "please insert a number"
+years to mercury
+  user inputs 5 multiply users input by 4.16
+  5 -> 16.64
+years to Venus
+  user inputs 17 multiply users input by 1.61
+  17 -> 27.41
+years to mars
+  user inputs 62 multiply users input by 0.53
+  62 -> 32.97
+years to mars
+    user inputs 24 multiply users input by 0.084
+    24 --> 2.02
+determining users life expectancy on planet
+  users life expectancy on earth multiply by years ratio on planet then subtract users age on planet and return the new number as the years they have left to live
+  if users age > life expectancy return users age on planet - life expectancy on planet
+
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
