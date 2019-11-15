@@ -2,8 +2,8 @@ export const yearsToMercury = function(usersAge, usersLifeExpec){
 
 
 let usersAgeInMercuryYears = usersAge*4.16
-return usersAgeInMercuryYears
-
+let usersLifeOnMercury = usersLifeExpec*4.16 - usersAgeInMercuryYears
+return usersLifeOnMercury
 }
 
 
