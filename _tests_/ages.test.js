@@ -1,4 +1,4 @@
-import { yearsToMercury } from './src/backend.js';
+import { yearsToMercury } from './../src/backend.js';
 
 describe('ageschanges', () => {
 
