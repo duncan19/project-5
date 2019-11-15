@@ -1,6 +1,6 @@
-const yearsToMurcury = function(usersAge){
+const yearsToMercury = function(usersAge){
 
-let usersAgeInMurcuryYears = usersAge*4.16
-return usersAgeInMurcuryYears
+let usersAgeInMercuryYears = usersAge*4.16
+return usersAgeInMercuryYears
 
 }
