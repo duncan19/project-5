@@ -10,7 +10,7 @@ describe('ageschanges', () => {
 
 
 
-    expect(usersAgeInMercuryYears).toEqual(87.36);
+    expect(newAge).toEqual(87.36);
 
   });
 
@@ -19,15 +19,15 @@ describe('ageschanges', () => {
 
 
 
-    expect(usersLifeOnVenus).toEqual(12.88);
+    expect(newAge).toEqual(12.88);
 
   });
   test('should correctly changes users age relative to their age in Mars years', () => {
-    let newAge = yearsToMars(62 25);
+    let newAge = yearsToMars(23 25);
 
 
 
-    expect(usersAgeInMarsYears).toEqual(32.97);
+    expect(newAge).toEqual(1.06);
 
   });
 });

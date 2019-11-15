@@ -20,7 +20,8 @@ export const yearsToMars = function(usersAge, usersLifeExpec){
 
 
 let usersAgeInMarsYears = usersAge*0.53
-return usersAgeInMarsYears
+let usersLifeOnMars = usersLifeExpec*0.53 - usersAgeInMarsYears
+return usersLifeOnMars
 
 }
 export const yearsToJupiter = function(usersAge, usersLifeExpec){
