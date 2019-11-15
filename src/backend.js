@@ -1,6 +1,6 @@
-let yearsToMurcury = function(usersAge){
+const yearsToMurcury = function(usersAge){
 
-let usersAgeInMurcury = usersAge*4.16
-return usersageInMurcury
+let usersAgeInMurcuryYears = usersAge*4.16
+return usersAgeInMurcuryYears
 
 }
