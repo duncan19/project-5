@@ -30,4 +30,12 @@ describe('ageschanges', () => {
     expect(newAge).toEqual(1.06);
 
   });
+  test('should correctly changes users age relative to their age in Jupiter years', () => {
+    let newAge = yearsToJupiter(12 25);
+
+
+
+    expect(newAge).toEqual(1.092);
+
+  });
 });
