@@ -1,4 +1,4 @@
-import { yearsToMercury } from './../src/backend.js';
+import { yearsToMercury, yearsToVenus  } from './../src/backend.js';
 
 
 describe('ageschanges', () => {
@@ -13,4 +13,13 @@ describe('ageschanges', () => {
     expect(usersAgeInMercuryYears).toEqual(16.64);
 
   });
+
+    test('should correctly changes users age relative to their age in Venus years', () => {
+      let newAge = yearsToVenus(4);
+
+
+
+      expect(usersAgeInVenusYears).toEqual(16.64);
+
+    });
 });
