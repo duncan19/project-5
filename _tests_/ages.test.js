@@ -15,15 +15,15 @@ describe('ageschanges', () => {
   });
 
   test('should correctly changes users age relative to their age in Venus years', () => {
-    let newAge = yearsToVenus(17);
+    let newAge = yearsToVenus(17, 25);
 
 
 
-    expect(usersAgeInVenusYears).toEqual(27.41);
+    expect(usersLifeOnVenus).toEqual(12.88);
 
   });
   test('should correctly changes users age relative to their age in Mars years', () => {
-    let newAge = yearsToMars(62);
+    let newAge = yearsToMars(62 25);
 
 
 
