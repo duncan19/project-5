@@ -15,3 +15,10 @@ let usersAgeInVenusYears = usersAge*1.61
 return usersAgeInVenusYears
 
 }
+const yearsToMars = function(usersAge){
+
+
+let usersAgeInMarsYears = usersAge*0.53
+return usersAgeInMarsYears
+
+}
