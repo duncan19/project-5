@@ -17,7 +17,7 @@ years to Venus
 years to mars
   user inputs 62 multiply users input by 0.53
   62 -> 32.97
-years to mars
+years to Jupiter
     user inputs 24 multiply users input by 0.084
     24 --> 2.02
 determining users life expectancy on planet

@@ -22,3 +22,10 @@ let usersAgeInMarsYears = usersAge*0.53
 return usersAgeInMarsYears
 
 }
+export const yearsToJupiter = function(usersAge){
+
+
+let usersAgeInJupiterYears = usersAge*0.084
+return usersAgeInJupiterYears
+
+}
