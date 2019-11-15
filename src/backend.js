@@ -8,14 +8,14 @@ return usersAgeInMercuryYears
 
 
 
-const yearsToVenus = function(usersAge){
+export const yearsToVenus = function(usersAge){
 
 
 let usersAgeInVenusYears = usersAge*1.61
 return usersAgeInVenusYears
 
 }
-const yearsToMars = function(usersAge){
+export const yearsToMars = function(usersAge){
 
 
 let usersAgeInMarsYears = usersAge*0.53
